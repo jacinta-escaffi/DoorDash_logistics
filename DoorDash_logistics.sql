@@ -92,7 +92,7 @@ WITH peak_hours AS (
 -- Objective: Analyze supply and demand imbalances by hour.
 
 -- Step 4.1: Extract dashers on shift, busy dashers, and outstanding orders per hour.
--- Claculate over-supply (idle dashers) and over-demand (unmet orders) per hour.
+-- Calculate over-supply (idle dashers) and over-demand (unmet orders) per hour.
 , drivers AS (
 	SELECT
 		EXTRACT(HOUR FROM created_at) AS order_hour
