@@ -1,13 +1,13 @@
-# DOORDASH LOGISTICS: DATA ANALYSIS PROJECT
+# DoorDash Logistics: Data Analysis Project
 Analyzing peak hours, delivery time optimization, and driver utilization rates using data from Kaggle.
 
-# INTRODUCTION
+# Introduction
 
 Hi! Welcome to my **DoorDash Logistics Analysis** project! This case study is part of my portfolio and focuses on optimizing delivery times, undestanding peak hour demand, and analyzing driver utilization rates.
 
-**DISCLAMER:** The data, sourced from a Kaggle forum, simulates real-time delivery information from DoorDash. However, the dataset is completly fictional, and it does not necessaryly reflect real-world conditions, therefore the conclusions are based solely on the available data and may not accurately represent actual trends.
+**Disclamer:** The data, sourced from a Kaggle forum, simulates real-time delivery information from DoorDash. However, the dataset is completly fictional, and it does not necessaryly reflect real-world conditions, therefore the conclusions are based solely on the available data and may not accurately represent actual trends.
 
-# SKILLS DEMONSTRATED
+# Skills Demonstrated
 
 **SQL Query Structuring & Organization:**
 * Commenting, documentation, and `WITH` statements.
@@ -30,7 +30,7 @@ Hi! Welcome to my **DoorDash Logistics Analysis** project! This case study is pa
 **Business Analysis & Strategy Insights:**
 * Translating raw data into actionable recommendations.
 
-# CONCLUSIONS
+# Conclusions
 
 | Findings  | Insight |
 | ------------- | ------------- |
@@ -39,7 +39,7 @@ Hi! Welcome to my **DoorDash Logistics Analysis** project! This case study is pa
 | Delivery Times  | Delivery times show **minor variation** between peak and off-peak hours.  |
 | Driver Shortages  | Peak hour demand **exceeds available Dashers**, leading to potential delivery delays.  |
 
-# SOLUTIONS
+# Solutions
 
 **1. Smoothing Peak Hours:**
 * Notify users in advance with **ETA estimates** for sponsored restaurants, encouraging earlier/later orders.
