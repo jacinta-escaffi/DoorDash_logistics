@@ -1,47 +1,69 @@
-# DoorDash_logistics
-Analyzing peak hours, delivery time optimization, and driver utilization rates from a database extracted from Kaggle.
+# DOORDASH LOGISTICS: DATA ANALYSIS PROJECT
+Analyzing peak hours, delivery time optimization, and driver utilization rates using data from Kaggle.
 
-**INTRODUCTION**
+# INTRODUCTION
 
-Hi! Welcome to this project in my portfolio, where I extracted data from a forum about DoorDash delivery ETAs to analyze peak hours, delivery time optimization, and driver utilization rates.
+Hi! Welcome to my **DoorDash Logistics Analysis** project! This case study is part of my portfolio and focuses on optimizing delivery times, undestanding peak hour demand, and analyzing driver utilization rates.
 
-This project demonstrates my SQL abilities, including:
+**DISCLAMER:** The data, sourced from a Kaggle forum, simulates real-time delivery information from DoorDash. However, the dataset is completly fictional, and it does not necessaryly reflect real-world conditions, therefore the conclusions are based solely on the available data and may not accurately represent actual trends.
 
-	1. SQL Query Structuring & Organization: Commenting, documentation, and WITH statements.
-	2. Data Transformation & Aggregation:
-		- ALTER TABLE, ADD COLUMN, UPDATE.
-		- COUNT(), SUM(), AVG(), MIN(), MAX().
-		- GROUP BY.
-	3. Window Functions & Ranking: ROW_NUMBER(), RANK(), ORDER BY.
-	4. Time-Based Analysis & Extraction: EXTRACT(HOUR FROM created_at).
-	5. Conditional Logic & Case Statements: CASE.
-	6. Data Joining & Relationships: LEFT JOIN.
-	7. Data Analysis, Business, and Strategy Insights.
+# SKILLS DEMONSTRATED
 
-**Disclaimer:** The data used in this project was extracted from a forum and does not reflect real-world conditions. Therefore, the conclusions are based solely on the available data and may not accurately represent actual trends.
+**SQL Query Structuring & Organization:**
 
-**CONCLUSIONS**
+Commenting, documentation, and `WITH` statements.
 
-	1. The times that have more orders are in the early morning (01:00, 02:00, 03:00, 04:00 hrs), and 20:00 hrs.
-	2. The most demanded hours are also the most profitable.
-	3. The average of items don't change much, so the consumers buy more expensive food in the peak hours.
-	4. The delivery time doesn't change significantly from the non-peak hours.
-	5. The amount of orders created are superior than the amount of dashers in peak hours, which creates a gap between demand and supply.
+**Data Transformation & Aggregation:**
 
-**SOLUTIONS**
+Key operations: `ALTER TABLE`, `ADD COLUMN`, `UPDATE`, `COUNT()`, `SUM()`, `AVG()`, `GROUP BY`.
 
-To smooth peak hours:
+**Time-Based Analysis & Extraction:**
 
-	1. Send notifications to consumers with the estimated time of arrival for a sponsored restaurant near a peak hour. This can help extend the peak period while reducing its intensity.
-	2. Offer discounts or rewards to consumers that order outside of the peak hours.
+Extracting insights using `EXTRACT(HOUR)` to analyze hourly demand patterns.
 
-To improve delivery time optimization:
+**Window Functions & Ranking:**
 
-	1. Allow customers to schedule a meal for a specific time and coordinate meal preparation with the assignment of a Dasher.
-	2. Give data to restaurants about the most demanted dishes so they can prepare in advance and pre-cook a batch before an order is created. 
+Applying `ROW_NUMBER()`, `RANK()`, and `ORDER BY` to evaluate hourly performance.
 
-To increase driver utilization rate:
+**Conditional Logic & Case Statements:**
 
-	1. Send notifications to Dashers when a peak hour is about to start.
-	2. Display data to Dashers about the increase in price per order, providing an incentive to work during high-demand hours.
- 
+Dynamic analysis using `CASE` for flexible reporting.
+
+**Data Joining & Relationships:**
+
+Combining multiple analytical perspectives via `LEFT JOIN`.
+
+**Business Analysis & Strategy Insights:**
+
+Translating raw data into actionable recommendations.
+
+# CONCLUSIONS
+
+| Findings  | Insight |
+| ------------- | ------------- |
+| Peak Hours  | Highest order volumes occur between **1:00-4:00 hrs** and **20:00 hrs**.  |
+| Revenue Patterns  | Peak hours drive higher **order values**, even though **order size (items)** remains stable.  |
+| Delivery Times  | Delivery times show **minor variation** between peak and off-peak hours.  |
+| Driver Shortages  | Peak hour demand **exceeds available Dashers**, leading to potential delivery delays.  |
+
+# SOLUTIONS
+
+**1. Smoothing Peak Hours:**
+* Notify users in advance with **ETA estimates** for sponsored restaurants, encouraging earlier/later orders.
+* Offer **discounts/rewards** for ordering outside peak times.
+
+**2. Optimizing Delivery Time:**
+* Allow customers to **pre-schedule meals**, improving kitchen and driver coordination.
+* Share **demand forecasts** with restaurants, encouraging pre-prep of popular dishes.
+
+**3. Enhancing Driver Utilization:**
+* Send proactive **notifications to Dashers** before peak times.
+* Show Dashers real-time **surge pricing** for peak hour deliveries, driving supply alignment.
+
+# Files in this Repository
+
+| **File**  | **Description**  |
+| ---------  | --------------- |
+| [historical_data.csv](https://www.kaggle.com/datasets/dharun4772/doordash-eta-prediction) | Source data |
+| [doordash_logistics.sql](https://github.com/jacinta-escaffi/DoorDash_logistics/blob/main/DoorDash_logistics.sql) | Full SQL script |
+| [README.md](https://github.com/jacinta-escaffi/DoorDash_logistics/blob/main/README.md) | This documentation file |
