@@ -10,32 +10,25 @@ Hi! Welcome to my **DoorDash Logistics Analysis** project! This case study is pa
 # SKILLS DEMONSTRATED
 
 **SQL Query Structuring & Organization:**
-
-Commenting, documentation, and `WITH` statements.
+* Commenting, documentation, and `WITH` statements.
 
 **Data Transformation & Aggregation:**
-
-Key operations: `ALTER TABLE`, `ADD COLUMN`, `UPDATE`, `COUNT()`, `SUM()`, `AVG()`, `GROUP BY`.
+* Key operations: `ALTER TABLE`, `ADD COLUMN`, `UPDATE`, `COUNT()`, `SUM()`, `AVG()`, `GROUP BY`.
 
 **Time-Based Analysis & Extraction:**
-
-Extracting insights using `EXTRACT(HOUR)` to analyze hourly demand patterns.
+* Extracting insights using `EXTRACT(HOUR)` to analyze hourly demand patterns.
 
 **Window Functions & Ranking:**
-
-Applying `ROW_NUMBER()`, `RANK()`, and `ORDER BY` to evaluate hourly performance.
+* Applying `ROW_NUMBER()`, `RANK()`, and `ORDER BY` to evaluate hourly performance.
 
 **Conditional Logic & Case Statements:**
-
-Dynamic analysis using `CASE` for flexible reporting.
+* Dynamic analysis using `CASE` for flexible reporting.
 
 **Data Joining & Relationships:**
-
-Combining multiple analytical perspectives via `LEFT JOIN`.
+* Combining multiple analytical perspectives via `LEFT JOIN`.
 
 **Business Analysis & Strategy Insights:**
-
-Translating raw data into actionable recommendations.
+* Translating raw data into actionable recommendations.
 
 # CONCLUSIONS
 
