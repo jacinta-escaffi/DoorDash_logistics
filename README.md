@@ -60,3 +60,5 @@ Hi! Welcome to my **DoorDash Logistics Analysis** project! This case study is pa
 | [historical_data.csv](https://www.kaggle.com/datasets/dharun4772/doordash-eta-prediction) | Source data |
 | [doordash_logistics.sql](https://github.com/jacinta-escaffi/DoorDash_logistics/blob/main/DoorDash_logistics.sql) | Full SQL script |
 | [README.md](https://github.com/jacinta-escaffi/DoorDash_logistics/blob/main/README.md) | This documentation file |
+
+You can also visualize the data through [Tableu](https://public.tableau.com/app/profile/jacinta.escaffi/viz/DoorDash_logistics/Dashboard1).
